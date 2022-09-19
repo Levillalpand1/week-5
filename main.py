@@ -59,27 +59,36 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+my_list4= luckyNumbers + friends
+print(my_list4)
 ###### print the new list out
 #print(newList2)
 ###### print out the first item in the list
-
+print(my_list4 [0])
 ###### remove the last item of the new list
-
+my_list4.pop()
+print(my_list4)
 ###### print the new list out without the last item
-
+my_list4.pop()
+print(my_list4)
 ###### add three more items to the end of the list
+my_list4.append("The queen")
+my_list4.append("The prince")
+my_list4.append("The king")
+print(my_list4)
 
 ###### print the last item in the new list
-
+print(my_list4[-1]) 
 ###### sort the list
-
+#my_list4. sort(luckyNumbers)
+print(my_list4)
 ###### find a way to insert a new item at the 3rd position of the list
-
+my_list4.insert( 3,"The princess")
 ###### print the new list out
-
+print(my_list4)
 ##### reverse the list
-
+my_list4. reverse() 
+print(my_list4)
 ###### print the new list out
 ###### print out the length of the new list
 
