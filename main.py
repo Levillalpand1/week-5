@@ -29,6 +29,16 @@ print(my_list)
 my_list.insert(3,"bobba bobba")
 print(my_list)
 
+next_list= ["car","floor","cat","dog","smart","computer"]
+print(next_list)
+#join my new list with list 2 in  a new variable
+#called my list3 to print it out 
+my_list3= next_list+ my_list
+print(my_list3)
+
+
+
+
 # Add the element "motorcycle" to the following list of means of transportation:
 
 # transportation_means = ["plane", "car", "ship", "bicycle"]
